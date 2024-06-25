@@ -10,8 +10,8 @@ Run as: Admin
 Context: 64 Bit
 #> 
 
-$Path = 'HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\LanManWorkstation\Parameters'
-$Name = 'RequireSecuritySignature'
+$Path = "HKLM:\System\CurrentControlSet\Services\LanManWorkstation\Parameters"
+$Name = "RequireSecuritySignature"
 $Value = 1
 
 Try {
